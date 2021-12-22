@@ -78,7 +78,7 @@ employSchema.pre("save",async function(next){
 })
 
 
-//now we neee to create collection(table)=========
+//now we need to create collection(table)=========
 
 const Register = new momgoose.model("Register",employSchema);
 
